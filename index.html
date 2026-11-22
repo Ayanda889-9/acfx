@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AcFx - News, Technology, Business & Digital Trends">
+<meta name="keywords" content="Technology, AI, Business, News, Cybersecurity">
+<meta name="author" content="AcFx">
+
+<title>AcFx | News, Technology & Digital Trends</title>
+
+<style>
+:root{
+--primary:#0f172a;
+--secondary:#2563eb;
+--accent:#f59e0b;
+--light:#f8fafc;
+--dark:#111827;
+--gray:#64748b;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:var(--light);
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:var(--primary);
+color:white;
+padding:15px 5%;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:2rem;
+font-weight:bold;
+color:var(--accent);
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-weight:600;
+}
+
+nav a:hover{
+color:var(--accent);
+}
+
+.breaking{
+background:#dc2626;
+color:white;
+padding:10px;
+text-align:center;
+font-weight:bold;
+}
+
+.hero{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:20px;
+padding:30px 5%;
+}
+
+.featured{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.featured img{
+width:100%;
+height:400px;
+object-fit:cover;
+}
+
+.featured-content{
+padding:20px;
+}
+
+.featured-content h1{
+margin-bottom:15px;
+}
+
+.sidebar{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.ad-box{
+background:white;
+padding:20px;
+text-align:center;
+border:2px dashed #ccc;
+border-radius:10px;
+font-weight:bold;
+min-height:250px;
+}
+
+.trending{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,.08);
+}
+
+.section{
+padding:20px 5%;
+}
+
+.section-title{
+margin-bottom:20px;
+color:var(--primary);
+border-left:5px solid var(--secondary);
+padding-left:10px;
+}
+
+.news-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card-content{
+padding:15px;
+}
+
+.card-content h3{
+margin-bottom:10px;
+}
+
+.newsletter{
+background:var(--secondary);
+color:white;
+padding:40px 5%;
+text-align:center;
+}
+
+.newsletter input{
+padding:12px;
+width:300px;
+max-width:90%;
+border:none;
+border-radius:5px;
+margin:10px;
+}
+
+.newsletter button{
+padding:12px 24px;
+border:none;
+background:var(--accent);
+color:white;
+font-weight:bold;
+cursor:pointer;
+border-radius:5px;
+}
+
+footer{
+background:var(--primary);
+color:white;
+padding:30px 5%;
+margin-top:40px;
+}
+
+.footer-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.footer-links a{
+display:block;
+color:white;
+text-decoration:none;
+margin:8px 0;
+}
+
+.copyright{
+text-align:center;
+margin-top:20px;
+padding-top:20px;
+border-top:1px solid rgba(255,255,255,.2);
+}
+
+@media(max-width:768px){
+
+.hero{
+grid-template-columns:1fr;
+}
+
+nav ul{
+display:none;
+}
+
+.logo{
+font-size:1.5rem;
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="nav">
+<div class="logo">AcFx</div>
+
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Technology</a></li>
+<li><a href="#">Business</a></li>
+<li><a href="#">AI</a></li>
+<li><a href="#">Gaming</a></li>
+<li><a href="#">South Africa</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<div class="breaking">
+🚨 Breaking News: Welcome to AcFx - Your Source for News, Technology & Digital Trends
+</div>
+
+<section class="hero">
+
+<div class="featured">
+<img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?w=1200" alt="News">
+
+<div class="featured-content">
+<h1>Artificial Intelligence Continues to Transform Global Industries</h1>
+<p>
+From healthcare and education to finance and cybersecurity,
+AI innovation is driving a new wave of digital transformation.
+</p>
+</div>
+</div>
+
+<div class="sidebar">
+<div class="ad-box">
+Google AdSense Space<br><br>
+728x90 / 300x250
+</div>
+
+<div class="trending">
+<h3>🔥 Trending</h3>
+<br>
+<p>• Best AI Tools in 2026</p>
+<p>• Cybersecurity Threat Updates</p>
+<p>• Latest Microsoft Features</p>
+<p>• South African Tech Startups</p>
+<p>• Cloud Computing Trends</p>
+</div>
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">Latest News</h2>
+
+<div class="news-grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=700">
+<div class="card-content">
+<h3>Technology Innovation Accelerates Across Africa</h3>
+<p>
+Emerging startups continue attracting investors across the continent.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=700">
+<div class="card-content">
+<h3>Cybersecurity Becomes Top Business Priority</h3>
+<p>
+Companies are increasing security spending amid evolving threats.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=700">
+<div class="card-content">
+<h3>AI Assistants Enter Everyday Business Operations</h3>
+<p>
+Organizations adopt intelligent automation at record pace.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1559526324-593bc073d938?w=700">
+<div class="card-content">
+<h3>Digital Finance Continues Rapid Expansion</h3>
+<p>
+Fintech platforms are reshaping the future of banking.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=700">
+<div class="card-content">
+<h3>Business Leaders Focus on Data-Driven Strategy</h3>
+<p>
+Analytics and machine learning provide competitive advantage.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=700">
+<div class="card-content">
+<h3>Gaming Industry Reaches New Milestones</h3>
+<p>
+Global gaming revenue continues breaking records.
+</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="newsletter">
+
+<h2>Subscribe to AcFx Newsletter</h2>
+
+<p>Get breaking news, technology updates, and business insights.</p>
+
+<br>
+
+<input type="email" placeholder="Enter your email address">
+
+<button onclick="subscribe()">Subscribe</button>
+
+</section>
+
+<footer>
+
+<div class="footer-grid">
+
+<div>
+<h3>AcFx</h3>
+<p>
+News, Technology, Business, AI and Digital Trends.
+</p>
+</div>
+
+<div class="footer-links">
+<h3>Links</h3>
+<a href="#">About Us</a>
+<a href="#">Contact</a>
+<a href="#">Advertise</a>
+<a href="#">Privacy Policy</a>
+<a href="#">Terms & Conditions</a>
+</div>
+
+<div>
+<h3>Advertising</h3>
+<p>
+Banner Ads<br>
+Sponsored Content<br>
+Affiliate Partnerships
+</p>
+</div>
+
+</div>
+
+<div class="copyright">
+© 2026 AcFx. All Rights Reserved.
+</div>
+
+</footer>
+
+<script>
+function subscribe(){
+alert("Thank you for subscribing to AcFx!");
+}
+</script>
+
+</body>
+</html>
